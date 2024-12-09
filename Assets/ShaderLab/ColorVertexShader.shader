@@ -39,9 +39,9 @@ Shader "Custom/ColorVertexShader"
          v2f o;
          o.pos = TransformObjectToHClip(v.vertex.xyz);
          o.uv = v.uv;
-         o.color.r = sin(v.vertex.x + 10) / 10 * _Time;
-         o.color.g = sin(v.vertex.x + 20) / 10 * _Time;
-         o.color.b = sin(v.vertex.x + 30) / 10 * _Time;;
+         o.color.r = sin(v.vertex.x + 10) / 5 ;
+         o.color.g = sin(v.vertex.x + 20) / 5 ;
+         o.color.b = sin(v.vertex.x + 30) / 5 ;
          o.color.a = 1.0;
          return o;
      }
