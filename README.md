@@ -9,7 +9,12 @@ However I also added the ability to blend a texture onto the outline in order fo
 
 
 For vertex coloring I used the shader shown in class which gets a vertex and applies color to it, it also moves the vertices non destructively  and tweaked it so each color has its own section 
-and didn’t interfere with the other sections
+and didn’t interfere with the other sections. There is also a texture blended onto the base color sections to provide a track and direction feel. This is the end result, blended with a water foam texture.
+
 ![Screenshot 2024-12-09 144412](https://github.com/user-attachments/assets/88785f36-5e84-4249-8cdd-28d419d88285)
 
- there is also a texture blended onto the base color sections to provide a track and direction feel. This is the end result, blended with a water foam texture.
+
+Finally I added a toon shader for Lakitu and the light in order to still have the cartoon feel that is commonly in mario games, in this case I used the toon shader shown in class as a base and added a texture to it in order to create the rocky appearance Lakitu has in the game, this is the end result with a rock texture + toon shader
+
+![image](https://github.com/user-attachments/assets/466bd6f7-0b9a-4b9d-880e-78c215d4b569)
+
