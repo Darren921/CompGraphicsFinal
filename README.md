@@ -9,6 +9,7 @@ However I also added the ability to blend a texture onto the outline in order fo
 
 
 For vertex coloring I used the shader shown in class which gets a vertex and applies color to it, it also moves the vertices non destructively  and tweaked it so each color has its own section 
+and didn’t interfere with the other sections
 ![Screenshot 2024-12-09 144412](https://github.com/user-attachments/assets/88785f36-5e84-4249-8cdd-28d419d88285)
 
-and didn’t interfere with the others, there is also a texture blended onto the base color sections to provide a track and direction feel. This is the end result, blended with a water foam texture.
+ there is also a texture blended onto the base color sections to provide a track and direction feel. This is the end result, blended with a water foam texture.
