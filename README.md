@@ -18,3 +18,7 @@ Finally I added a toon shader for Lakitu and the light in order to still have th
 
 ![image](https://github.com/user-attachments/assets/466bd6f7-0b9a-4b9d-880e-78c215d4b569)
 
+
+
+Please note that all textures are found the resource given in class and are located in the textures folder 
+
